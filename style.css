@@ -40,13 +40,14 @@ h1 {
     font-weight: 300;
     line-height: 1.2;
     font-family: fantasy;
+    text-align: center;
 }
 
 h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
-    font-family: sans-serif;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 
 #name {
@@ -75,7 +76,7 @@ p {
     max-width: 450px;
     margin: 25px auto;
     font-family: 'Baloo Tammudu 2', cursive;
-    color:gray;
+    color: gray;
 }
 
 .menu {
@@ -91,7 +92,7 @@ p {
 
 .links {
     float: left;
-    color: slategrey;
+    color: slategray;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
@@ -100,6 +101,19 @@ p {
     font-family: fantasy;
 }
 
-.links:hover{
-    background-color:antiquewhite;
+.links:hover {
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: slategray;
+}
+
+.article:hover {
+    color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
 }
